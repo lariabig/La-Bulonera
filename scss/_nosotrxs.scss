@@ -1,0 +1,21 @@
+.contenedorNosotros {
+    background-color: darkslateblue;
+    display: flex;
+    justify-content: space-around;
+    border-style: inset;
+}
+
+.contenedor {
+    width: 95%;
+    max-width: 120rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.foto1 {
+    width: 70%;
+}
+
+.texto1 {
+    width: 30%;
+}

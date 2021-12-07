@@ -1,0 +1,280 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #131111;
+  background-size: 1600px auto;
+  background-repeat: no-repeat;
+  min-height: 100%;
+  height: 100%;
+}
+
+.titulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 200px;
+  position: relative;
+  border-style: double;
+  background: #e9c114;
+  background: radial-gradient(circle, #e9c114 3%, rgba(233, 133, 7, 0.965908) 48%, #232324 100%);
+}
+
+.logo {
+  margin-bottom: 0%;
+}
+
+.iconos {
+  text-align: center;
+  height: 95%;
+  width: 98%;
+  max-width: 300px;
+  padding-right: 10px;
+  padding-top: 25px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  letter-spacing: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 30px;
+}
+
+#redes {
+  color: black;
+}
+
+header {
+  height: 100%;
+  width: 100%;
+}
+
+nav {
+  height: auto;
+  width: 100%;
+  background-color: #353330;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  font-size: 35px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #24706c;
+  text-decoration: none;
+  margin-left: 10px;
+  padding-left: 80px;
+  text-align: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(0.1);
+          transform: scale(0.1);
+}
+
+nav ul li a:hover {
+  color: black;
+  background-color: #707970;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+nav ul li ul {
+  display: none;
+  position: absolute;
+}
+
+nav ul li ul li {
+  font-size: xx-small;
+  display: block;
+  background-size: auto;
+  background-color: #353330;
+  text-transform: capitalize;
+}
+
+nav ul li ul li:hover ul {
+  display: block;
+}
+
+main {
+  margin-bottom: 110px;
+}
+
+.h2Resto {
+  height: 100%;
+  width: 100%;
+  color: black;
+  font-size: 60px;
+  font-weight: bolder;
+  font-family: monospace;
+  text-align: center;
+  word-spacing: 20px;
+  letter-spacing: 20px;
+  border-style: dashed;
+  background-color: #7e8181;
+}
+
+footer {
+  height: 450px;
+  width: 100%;
+  background-color: black;
+  color: #5a5958;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: center;
+  font-size: 25px;
+  padding: 25px;
+}
+
+.ubi > pre, .horarios {
+  text-align: justify;
+}
+
+#maps {
+  color: red;
+}
+
+#telefono {
+  color: green;
+}
+
+.subir {
+  height: 60px;
+  width: 60px;
+  position: fixed;
+  bottom: 50px;
+  background-color: #38c489;
+  font-size: 40px;
+  line-height: 60px;
+  text-decoration: none;
+  border-radius: 50px;
+  text-align: center;
+  right: 60px;
+}
+
+.contenedorCar {
+  width: 100%;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 500px;
+}
+
+.carousel-indicators li {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+.contenedorInicio {
+  width: 90%;
+  background-image: url(img.jpg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.prodYserv {
+  font-size: 40px;
+  height: 400px;
+  width: 500px;
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #484c53;
+  -webkit-box-shadow: 0px 0px 4px 4px rgba(83, 88, 90, 0.568);
+          box-shadow: 0px 0px 4px 4px rgba(83, 88, 90, 0.568);
+  font-family: monospace;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.h2Inicio {
+  background-color: darkorange;
+}
+
+p {
+  font-size: 20px;
+  background-color: darkred;
+}
+
+.contenedorNosotros {
+  background-color: darkslateblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-style: inset;
+}
+
+.contenedor {
+  width: 95%;
+  max-width: 120rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.foto1 {
+  width: 70%;
+}
+
+.texto1 {
+  width: 30%;
+}
+
+table {
+  background-color: #1cd11c;
+}
+
+.formulario {
+  background-color: cadetblue;
+}
+/*# sourceMappingURL=style.css.map */
