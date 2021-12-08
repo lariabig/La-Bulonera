@@ -97,8 +97,8 @@ main {
   text-align: center;
   word-spacing: 20px;
   letter-spacing: 20px;
-  border-style: dashed;
   background-color: #7e8181;
+  border: 5px solid black;
 }
 
 footer {
@@ -211,29 +211,21 @@ p {
   background-color: darkred;
 }
 
-.contenedorNosotros {
-  background-color: darkslateblue;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  border-style: inset;
+/*.contenedorNosotros {
+    background-color: rgb(153, 148, 185);
+    display: block;
+    justify-content: space-around;
+    border-style: inset;
 }
 
 .contenedor {
-  width: 95%;
-  max-width: 120rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.foto1 {
-  width: 70%;
-}
-
+    width: 95%;
+    max-width: 120rem;
+    margin-left: auto;
+    margin-right: auto;
+}*/
 .texto1 {
-  width: 30%;
+  background-color: cadetblue;
 }
 
 table {
