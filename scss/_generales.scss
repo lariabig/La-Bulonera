@@ -39,20 +39,17 @@ header {
     height: 100%;
     width: 100%;
 }
+
 .navContenedor{
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
-/*
 nav {
-    display: inline-block;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    justify-content: center;
 }
-*/
+
 main {
     margin-bottom: 110px;
 }
