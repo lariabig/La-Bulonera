@@ -43,13 +43,9 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-.navLogo{
-    flex-basis: 25%;
-}
-.navEnlaces{
-    flex-basis: 75%;
-}
+
 /*
 nav {
     display: inline-block;
