@@ -35,7 +35,7 @@
 }
 
 .h2Inicio {
-    background-color: rgb(116, 217, 224);
+    background-color: rgba(142,196,180,1);
 }
 .contactanos{
     width: 100%;
@@ -44,19 +44,43 @@
     text-shadow: 0.4275rem 0.4275rem 0.4275rem rgb(142, 143, 142);
 }
 .infoPadre{
-    background-color: rgb(141, 238, 238);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(48,97,82,1) 19%, rgba(92,127,117,1) 34%, rgba(142,196,180,1) 67%, rgba(180,249,229,1) 100%);
+
 }
 .infoHijo{
-    display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     align-items: stretch;
     font-size: 1.875em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 20px;
+    color: black;
+}
+.infoHijo1{
+    flex-direction: column;
+    align-items: stretch;
+    font-size: 1.875em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 }
 .infoSubhijo{
     font-style: normal;
     font-weight: initial;
+}
+h3{
+    background-color: rgb(105, 105, 105);
+    text-align: center;
+}
+h4{
+    text-align: center;
+    font-weight: bold;
+}
+.horarios {
+    text-align: left;
+
 }
 p {
     font-size: 20px;

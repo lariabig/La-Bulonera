@@ -147,7 +147,7 @@ footer {
 }
 
 .h2Inicio {
-  background-color: #74d9e0;
+  background-color: #8ec4b4;
 }
 
 .contactanos {
@@ -158,20 +158,37 @@ footer {
 }
 
 .infoPadre {
-  background-color: #8deeee;
-}
-
-.infoHijo {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: black;
+  background: -webkit-gradient(linear, left bottom, left top, from(black), color-stop(19%, #306152), color-stop(34%, #5c7f75), color-stop(67%, #8ec4b4), to(#b4f9e5));
+  background: linear-gradient(0deg, black 0%, #306152 19%, #5c7f75 34%, #8ec4b4 67%, #b4f9e5 100%);
+}
+
+.infoHijo {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  font-size: 1.875em;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding-left: 20px;
+  color: black;
+}
+
+.infoHijo1 {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
@@ -182,6 +199,20 @@ footer {
 .infoSubhijo {
   font-style: normal;
   font-weight: initial;
+}
+
+h3 {
+  background-color: dimgray;
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.horarios {
+  text-align: left;
 }
 
 p {
