@@ -17,27 +17,6 @@ body {
   height: 100%;
 }
 
-.titulo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 200px;
-  position: relative;
-  border-style: double;
-  background: #e9c114;
-  background: radial-gradient(circle, #e9c114 3%, rgba(233, 133, 7, 0.965908) 48%, #232324 100%);
-}
-
-.logo {
-  margin-bottom: 0%;
-}
-
 .iconos {
   text-align: center;
   height: 95%;
@@ -64,27 +43,21 @@ header {
   width: 100%;
 }
 
-.h1Labulonera {
-  color: black;
-  text-align: center;
-  font-weight: bolder;
-  font-family: 'Anton', sans-serif;
-  word-spacing: 20px;
-  letter-spacing: 20px;
-  font-size: 80px;
-  text-shadow: 2px 2px 2px #1f1e1e;
-}
-
-nav {
-  display: inline-block;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
 main {
   margin-bottom: 110px;
+}
+
+#navContenedor {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .h2Resto {
@@ -99,40 +72,6 @@ main {
   letter-spacing: 20px;
   background-color: #7e8181;
   border: 5px solid black;
-}
-
-footer {
-  height: 450px;
-  width: 100%;
-  background-color: black;
-  color: #5a5958;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  text-align: center;
-  font-size: 25px;
-  padding: 25px;
-}
-
-.ubi > pre, .horarios {
-  text-align: justify;
-}
-
-#maps {
-  color: red;
-}
-
-#telefono {
-  color: green;
 }
 
 .subir {
@@ -155,7 +94,7 @@ footer {
 
 .carousel-inner img {
   width: 100%;
-  height: 500px;
+  height: 100%;
 }
 
 .carousel-indicators li {
@@ -206,9 +145,43 @@ footer {
   background-color: darkorange;
 }
 
+.contactanos {
+  width: 100%;
+  font-weight: bold;
+  font-size: 2.5em;
+  text-shadow: 0.4275rem 0.4275rem 0.4275rem #8e8f8e;
+}
+
+.infoPadre {
+  background-color: #c6e0e2;
+}
+
+.infoHijo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  font-size: 1.875em;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.infoSubhijo {
+  font-style: normal;
+  font-weight: initial;
+}
+
 p {
   font-size: 20px;
-  background-color: darkred;
+  background-color: #b34bd3;
 }
 
 /*.contenedorNosotros {

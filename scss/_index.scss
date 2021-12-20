@@ -1,10 +1,9 @@
-
 .contenedorCar{
     width: 100%;
 }
 .carousel-inner img{
     width: 100%;
-    height: 500px;
+    height: 100%;
 }
 .carousel-indicators li{
     height: 20px;
@@ -38,8 +37,28 @@
 .h2Inicio {
     background-color: darkorange;
 }
-
+.contactanos{
+    width: 100%;
+    font-weight: bold;
+    font-size: 2.5em;
+    text-shadow: 0.4275rem 0.4275rem 0.4275rem rgb(142, 143, 142);
+}
+.infoPadre{
+    background-color: rgb(198, 224, 226);
+}
+.infoHijo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    font-size: 1.875em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.infoSubhijo{
+    font-style: normal;
+    font-weight: initial;
+}
 p {
     font-size: 20px;
-    background-color: darkred;
+    background-color: rgb(179, 75, 211);
 }
