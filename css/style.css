@@ -242,8 +242,24 @@ h3 {
   background-color: cadetblue;
 }
 
-table {
-  background-color: #1cd11c;
+.listado {
+  text-align: left;
+  padding-left: 10px;
+  font-family: monospace;
+  font-size: 30px;
+  color: white;
+  background-color: #38c489;
+  width: 55%;
+}
+
+.listaProductos {
+  display: block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .formulario {

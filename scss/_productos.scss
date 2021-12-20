@@ -1,3 +1,14 @@
-table {
-    background-color: rgb(28, 209, 28);
+.listado{
+    text-align: left;
+    padding-left: 10px;
+    font-family: monospace;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(56, 196, 137);
+    width: 55%;
+}
+.listaProductos{
+    display: block;
+    align-items: center;
+    justify-content: center;
 }
