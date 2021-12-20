@@ -23,7 +23,7 @@
 
 .prodYserv {
     font-size: 40px;
-    height: 400px;
+    height: 300px;
     width: 500px;
     text-align: center;
     padding: 20px;
@@ -35,7 +35,7 @@
 }
 
 .h2Inicio {
-    background-color: darkorange;
+    background-color: rgb(116, 217, 224);
 }
 .contactanos{
     width: 100%;
@@ -44,7 +44,7 @@
     text-shadow: 0.4275rem 0.4275rem 0.4275rem rgb(142, 143, 142);
 }
 .infoPadre{
-    background-color: rgb(198, 224, 226);
+    background-color: rgb(141, 238, 238);
 }
 .infoHijo{
     display: flex;
@@ -60,5 +60,6 @@
 }
 p {
     font-size: 20px;
-    background-color: rgb(179, 75, 211);
+    background-color: rgb(0, 0, 0);
+    color: gainsboro;
 }

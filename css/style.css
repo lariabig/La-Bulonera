@@ -10,11 +10,7 @@ html {
 }
 
 body {
-  background-color: #131111;
-  background-size: 1600px auto;
-  background-repeat: no-repeat;
-  min-height: 100%;
-  height: 100%;
+  background-image: url(../imagenes/fondoFINAL.png);
 }
 
 .iconos {
@@ -58,6 +54,11 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  opacity: .9;
+}
+
+.navLogo {
+  opacity: 1;
 }
 
 .h2Resto {
@@ -86,6 +87,10 @@ main {
   border-radius: 50px;
   text-align: center;
   right: 60px;
+}
+
+footer {
+  background-color: black;
 }
 
 .contenedorCar {
@@ -124,7 +129,7 @@ main {
 
 .prodYserv {
   font-size: 40px;
-  height: 400px;
+  height: 300px;
   width: 500px;
   text-align: center;
   padding: 20px;
@@ -142,7 +147,7 @@ main {
 }
 
 .h2Inicio {
-  background-color: darkorange;
+  background-color: #74d9e0;
 }
 
 .contactanos {
@@ -153,7 +158,7 @@ main {
 }
 
 .infoPadre {
-  background-color: #c6e0e2;
+  background-color: #8deeee;
 }
 
 .infoHijo {
@@ -181,7 +186,8 @@ main {
 
 p {
   font-size: 20px;
-  background-color: #b34bd3;
+  background-color: black;
+  color: gainsboro;
 }
 
 /*.contenedorNosotros {
