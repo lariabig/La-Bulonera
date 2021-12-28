@@ -93,6 +93,34 @@ footer {
   background-color: black;
 }
 
+@media only screen and (min-width: 768px) {
+  .carousel img {
+    height: 400px;
+  }
+  .h2Resto {
+    height: auto;
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #sectionCarrousel {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .carrousel {
+    margin: 30px 15px;
+  }
+  .h2Resto {
+    height: auto;
+  }
+}
+
 .contenedorCar {
   width: 100%;
 }
@@ -221,25 +249,8 @@ h4 {
   color: gainsboro;
 }
 
-/*.contenedorNosotros {
-    background-color: rgb(153, 148, 185);
-    display: block;
-    justify-content: space-around;
-    border-style: inset;
-}
-
-.contenedor {
-    width: 95%;
-    max-width: 120rem;
-    margin-left: auto;
-    margin-right: auto;
-}*/
-h3 {
-  text-align: center;
-}
-
-.texto1 {
-  background-color: cadetblue;
+.milvi {
+  background-color: red;
 }
 
 .listado {
@@ -249,7 +260,7 @@ h3 {
   font-size: 30px;
   color: white;
   background-color: #38c489;
-  width: 55%;
+  width: 100%;
 }
 
 .listaProductos {

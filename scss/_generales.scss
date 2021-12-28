@@ -76,3 +76,29 @@ main {
 footer{
     background-color: rgb(0, 0, 0);
 }
+
+@media only screen and (min-width: 768px) {
+    .carousel {
+      img {
+        height: 400px;
+      }
+    }
+    .h2Resto {
+        height: auto;
+        font-size: 30px;
+    }
+}  
+
+@media only screen and (min-width: 1200px) {
+    #sectionCarrousel {
+      flex-direction: row;
+      justify-content: center;
+    }
+  
+    .carrousel {
+      margin: 30px 15px;
+    }
+    .h2Resto{
+        height: auto;
+    }
+}    
